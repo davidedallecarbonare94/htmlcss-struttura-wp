@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.container::after {
+.clearfix::after {
     content:none;
     display: table;
     clear: both;
@@ -12,7 +12,7 @@
 .container{
     background-color: grey;
     margin: auto;
-    height: 1000px;
+    height: 1500px;
 }
 /* header */
 .testata{
@@ -31,4 +31,42 @@
 li {
     display: inline-block;
 }
-.main_section
+.main_section {
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    width: 90%;
+}
+article{
+    height: 200px;
+    background-color: sandybrown;
+    margin: auto;
+    width: 90%;
+}
+.sidebar {
+    width: 90%;
+    height: 200px;
+    background-color: greenyellow;
+    margin: auto;
+}
+.sidebar_left{
+    background-color: green;
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin: auto;
+}
+.sidebar_center {
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    float: left;
+    margin: auto;
+}
+.sidebar_right {
+    background-color: red;
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin: auto;
+}
