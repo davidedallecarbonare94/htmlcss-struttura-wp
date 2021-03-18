@@ -70,3 +70,9 @@ article{
     float: left;
     margin: auto;
 }
+.closing {
+    background-color: teal;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+}
