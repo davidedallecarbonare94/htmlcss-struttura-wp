@@ -18,6 +18,7 @@
 .testata{
     background-color: lightblue;
     width: 90%;
+    height: 150px;
     margin: auto;
 }
 /* sezione pulsanti navigazione */
@@ -34,11 +35,13 @@ li {
     background-color: red;
     margin: auto;
     width: 90%;
+    height: 500px;
 }
 article{
     background-color: sandybrown;
     margin: auto;
     width: 90%;
+    height: 250px;
 }
 /* sezione sidebar */
 .sidebar {
@@ -47,9 +50,8 @@ article{
     margin: auto;
 }
 .sidebar_general{
-    width: 100%;
     float: left;
-    height: 150px;
+    height: 350px;
     margin: auto;
 }
 .sidebar_left{
@@ -69,5 +71,5 @@ article{
     background-color: teal;
     width: 90%;
     margin: auto;
-    float: left;
+   height: 150px;
 }
