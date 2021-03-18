@@ -5,7 +5,7 @@
 }
 
 .clearfix::after {
-    content:none;
+    content: "";
     display: table;
     clear: both;
 }
@@ -18,41 +18,38 @@
 .testata{
     background-color: lightblue;
     width: 90%;
-    height: 150px;
     margin: auto;
 }
 /* sezione pulsanti navigazione */
 .navigation_section {
-    height: 50px;
     width: 90%;
     background-color: orange;
     margin: auto;
 }
+/* list items */
 li {
     display: inline-block;
 }
 .main_section {
-    height: 400px;
     background-color: red;
     margin: auto;
     width: 90%;
 }
 article{
-    height: 200px;
     background-color: sandybrown;
     margin: auto;
     width: 90%;
 }
+/* sezione sidebar */
 .sidebar {
     width: 90%;
-    height: 200px;
     background-color: greenyellow;
     margin: auto;
 }
 .sidebar_general{
     width: 100%;
-    height: 500px;
     float: left;
+    height: 150px;
     margin: auto;
 }
 .sidebar_left{
@@ -67,10 +64,10 @@ article{
     background-color: red;
     width: 25%;
 }
+/* footer */
 .closing {
     background-color: teal;
     width: 90%;
-    height: 150px;
     margin: auto;
     float: left;
 }
