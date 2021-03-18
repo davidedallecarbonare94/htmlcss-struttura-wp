@@ -49,30 +49,28 @@ article{
     background-color: greenyellow;
     margin: auto;
 }
+.sidebar_general{
+    width: 100%;
+    height: 500px;
+    float: left;
+    margin: auto;
+}
 .sidebar_left{
     background-color: green;
     width: 25%;
-    height: 200px;
-    float: left;
-    margin: auto;
 }
 .sidebar_center {
     background-color: white;
     width: 50%;
-    height: 200px;
-    float: left;
-    margin: auto;
 }
 .sidebar_right {
     background-color: red;
     width: 25%;
-    height: 200px;
-    float: left;
-    margin: auto;
 }
 .closing {
     background-color: teal;
     width: 90%;
     height: 150px;
     margin: auto;
+    float: left;
 }
